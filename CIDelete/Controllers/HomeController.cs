@@ -8,8 +8,10 @@ namespace CIDelete.Controllers
 {
     public class HomeController : Controller
     {
-        //
-        // GET: /Home/
+        public ViewResult About()
+        {
+            return View();
+        }
 
         public ActionResult Index()
         {
